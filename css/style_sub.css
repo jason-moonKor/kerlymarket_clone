@@ -1,0 +1,345 @@
+*,
+h1 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	background-color: whitesmoke;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 헤더 부분 */
+#bora {
+	color: violet;
+	font-weight: bold;
+}
+.top_top {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 100px;
+}
+.top_top ul {
+	display: flex;
+}
+.top_top ul li {
+	margin: 10px 0px;
+	padding: 0 20px;
+	border-right: solid 1px gray;
+	height: 20px;
+}
+.deliver_logo {
+	border: gainsboro solid 2px;
+	border-radius: 15px;
+	padding: 5px;
+}
+.top_mid {
+	text-align: center;
+	padding: 0 0 30px 0;
+}
+.top_mid img {
+	width: 120px;
+}
+
+.top_bottom ul {
+	display: flex;
+	justify-content: center;
+}
+.top_bottom ul li {
+	padding: 0 40px;
+	font-weight: bold;
+}
+.top_bottom ul li a {
+	font-size: 18px;
+}
+.top_bottom ul #menu:hover {
+	border-bottom: solid 2px purple;
+	color: purple;
+}
+
+.category:hover {
+	color: purple;
+}
+
+.fa-bars {
+	font-size: 18px;
+}
+.top_bottom ul li input {
+	border: none;
+	width: 150px;
+	height: 25px;
+	outline: none;
+	background-color: gainsboro;
+	margin: 3px 0 0 5px;
+}
+.search_place {
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: gainsboro;
+	display: flex;
+}
+
+.fa-search {
+	margin: 6px 0 0 20px;
+	background-color: gainsboro;
+	font-size: 18px;
+}
+#loc_logo,
+#cart_logo {
+	width: 5px;
+}
+
+header {
+	padding-bottom: 20px;
+}
+
+.btn_menu {
+	position: absolute;
+	left: 220px;
+	top: 250px;
+	background-color: whitesmoke;
+	width: 250px;
+	display: none;
+}
+.btn_menu ul {
+	list-style: none;
+}
+
+.btn_menu ul li {
+	font-size: 25px;
+	color: #333;
+	line-height: 40px;
+}
+
+.btn_menu ul li:hover {
+	background-color: orange;
+	border-radius: 10px;
+	color: whitesmoke;
+}
+
+.btn_menu.active {
+	display: block;
+}
+/* 메인 */
+
+main {
+	border-bottom: 1px solid gainsboro;
+	display: flex;
+}
+
+.main_item_pic {
+	padding: 20px 100px 20px 150px;
+}
+
+.main_item_info {
+	padding-top: 20px;
+	width: 650px;
+}
+.main_item_title {
+	font-size: xx-large;
+}
+.main_item_title_info {
+	font-size: large;
+	font-weight: bold;
+	color: gray;
+	margin-top: 10px;
+}
+.sale_price_title {
+	margin-top: 35px;
+	font-size: large;
+	font-weight: bold;
+}
+.sale_price .won {
+	font-size: 30px;
+	font-weight: 400;
+}
+.sale_price {
+	font-size: 45px;
+	font-weight: bold;
+}
+.sale_percent {
+	color: crimson;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.origin_price {
+	text-decoration: line-through;
+	color: gray;
+	font-size: 35px;
+}
+
+.login_info {
+	color: indigo;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0 30px 0;
+}
+.item_info {
+}
+.list-top {
+	border-top: solid 1px gainsboro;
+	display: flex;
+}
+.list {
+	border-bottom: solid 1px gainsboro;
+	padding: 20px 0 20px 0;
+	display: flex;
+}
+.list_fst {
+	width: 250px;
+	font-size: 18px;
+}
+.list_sec {
+	float: left;
+	font-size: 18px;
+}
+
+.price {
+	padding-top: 30px;
+	text-align: right;
+}
+.num {
+	font-size: 50px;
+	font-weight: 900;
+}
+.won {
+	font-size: 35px;
+	font-weight: 900;
+}
+.ico {
+	border-style: none;
+	border-radius: 15px;
+	background-color: darkorange;
+	padding: 0 10px;
+	color: whitesmoke;
+}
+.price_bottom {
+	padding: 20px 0 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.re_ipgo {
+	padding: 20px;
+	border: solid 1px rgb(189, 189, 189);
+	color: rgb(189, 189, 189);
+	border-radius: 5px;
+	font-size: 20px;
+}
+.cart_in {
+	padding: 20px 30px 20px 30px;
+	width: 430px;
+	text-align: center;
+	border-style: none;
+	border-radius: 5px;
+	background-color: darkmagenta;
+	color: whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* 푸터부분 */
+
+footer {
+	display: flex;
+	margin: 50px 15px 20px 15px;
+	font-size: 15px;
+	justify-content: space-evenly;
+}
+.footer_left {
+	margin-left: 60px;
+}
+.left_title {
+	font-weight: 700;
+	font-size: 25px;
+	color: #333;
+}
+.left_num {
+	font-weight: 800;
+	font-size: 35px;
+	color: #333;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.question_box {
+	border: solid 1px gainsboro;
+	font-size: 15px;
+	text-align: center;
+	padding: 11px;
+	margin-top: 20px;
+}
+
+.footer_mid {
+	margin-top: 50px;
+}
+
+.mid_first {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mid_second {
+	color: gray;
+	font-size: 20px;
+}
+.mid_gap {
+	margin: 0 15px 20px 15px;
+}
+
+.footer_nav ul {
+	display: flex;
+}
+.footer_nav ul li {
+	margin: 0 20px;
+	font-weight: 550;
+}
+
+.footer_right_mid {
+	color: gray;
+	margin: 20px 20px;
+	line-height: 25px;
+}
+
+.footer_icons img {
+	margin-left: 15px;
+	padding: 10px 5px;
+	width: 40px;
+}
+
+.footer_right {
+	padding-left: 50px;
+	padding-bottom: 30px;
+}
+
+.footer_bottom {
+	border-top: solid 1px gainsboro;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
+.bottom_logo img {
+	width: 40px;
+}
+
+.logo_info {
+	font-size: 15px;
+	color: gray;
+	padding-right: 40px;
+	padding-left: 10px;
+}
+/* 맨위로 가기 버튼 */
+#go-top {
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	outline: 0;
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+	z-index: 9999;
+	color: #3f51b5; /* 색상변경*/
+}
