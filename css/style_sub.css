@@ -179,10 +179,11 @@ main {
 .list-top {
 	border-top: solid 1px gainsboro;
 	display: flex;
+	padding-top: 20px;
 }
 .list {
 	border-bottom: solid 1px gainsboro;
-	padding: 20px 0 20px 0;
+	padding: 20px 0;
 	display: flex;
 }
 .list_fst {
