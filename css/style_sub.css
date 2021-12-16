@@ -116,13 +116,9 @@ header {
 
 .btn_menu ul li:hover {
 	background-color: orange;
-	border-radius: 10px;
 	color: whitesmoke;
 }
 
-.btn_menu.active {
-	display: block;
-}
 /* 메인 */
 
 main {
