@@ -1,13 +1,24 @@
 // 전체카테고리를 클릭했을때 나오는 토글버튼기능
 const category = document.querySelector(".category");
 const menu = document.querySelector(".btn_menu");
+const category_icon = document.querySelector(".category i");
 
 category.addEventListener("click", () => {
-	if (menu.style.display === "none") {
-		menu.style.display = "block";
-	} else {
-		menu.style.display = "none";
-	}
+	menu.style.display = "block";
+});
+
+category.addEventListener("mouseover", () => {
+	category.style.color = "purple";
+	category_icon.style.color = "purple";
+});
+
+category.addEventListener("mouseleave", () => {
+	category.style.color = "black";
+	category_icon.style.color = "black";
+});
+
+menu.addEventListener("mouseleave", () => {
+	menu.style.display = "none";
 });
 
 // 맨위로 가기 버튼기능
